@@ -21,7 +21,6 @@ public class P5 {
         DateTime();
 
         int [] integers = new int[3];
-        int swap;
         Scanner scan = new Scanner(System.in);
 
         //Prompts message to Enter 3 integers
@@ -30,6 +29,8 @@ public class P5 {
         {
             integers[i] = scan.nextInt();
         }
+        scan.close();
+        // Scanner closed.
         System.out.print("Elements you have Entered: ");
 
         for (int integer : integers) {
